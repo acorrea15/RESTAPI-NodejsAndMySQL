@@ -1,0 +1,29 @@
+{
+  "name": "restapi-nodejsandmysql",
+  "version": "1.0.0",
+  "description": "API-REST con Node.js y MySQL que responde a las peticiones del robot de ICF24 que hace el refresh de los movimientos de los clientes de InterBanking. Versión Pública de prueba con datos ficticios.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acorrea15/RESTAPI-NodejsAndMySQL.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acorrea15/RESTAPI-NodejsAndMySQL/issues"
+  },
+  "homepage": "https://github.com/acorrea15/RESTAPI-NodejsAndMySQL#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
